@@ -1,4 +1,4 @@
-FROM my_node_image
+FROM node
 WORKDIR mkdir /code
 COPY . .
 EXPOSE 4000

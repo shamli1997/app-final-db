@@ -4,12 +4,12 @@ var empRouter=express();
 var Joi=require("joi");
 
 const connection=mysql.createConnection({
-    host:'localhost',
+  
+    host:'192.168.43.235',
     user:'root',
     password:'manager',
-    database:'awp'
-    // host:192.168.43.235,
-    // port:9090
+    database:'awp',
+    port:9099
 });
 
 var myData=[];
